@@ -21,3 +21,35 @@
     fill: white;
     background-color:rgba(255, 255, 255, 0.1);
 }
+.footer-form{
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+}
+.primary-button{
+    display: inline-flex;
+    width: 200px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: $primary-white-color;
+    background-color:$hover-color;    
+}
+.send-sms::after{    
+    content: '';
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    background-image: url('../img/send.svg');
+    background-size: contain;
+} 
