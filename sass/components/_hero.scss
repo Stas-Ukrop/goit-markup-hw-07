@@ -1,0 +1,45 @@
+h1{
+    font-family: "Roboto",sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $primary-white-color;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+}
+.hero{
+    max-width: 1600px;
+    height: 600px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/Img.jpg);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-div{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+}
+.primary-button{
+    display: inline-flex;
+    width: 200px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    color: $primary-white-color;
+    background-color: $hover-color;    
+}

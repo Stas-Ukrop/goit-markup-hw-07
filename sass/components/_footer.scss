@@ -1,0 +1,80 @@
+.footer-color{
+    background: $footer-color;
+}
+.content{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.ul-pad a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.ul-pad{
+    padding-left: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.content p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:$primary-white-color;
+    margin-top: 20px;
+}
+.content li{
+    margin-top: 9px;
+}
+.content-item{
+    padding-left: 70px;
+    padding-top: 60px;
+}
+.footer-h2{
+    font-family: 'Roboto',sans-serif;
+    font-style: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    line-height: 100%;
+    text-align: left; 
+    vertical-align: top;
+    letter-spacing: 3%;
+    color:#FFFFFF;
+}
+.svg-items-color{
+    fill: white;
+    background-color:rgba(255, 255, 255, 0.1);
+}
+.footer-form{
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+}
+.footer-input{
+    margin-right: 12px;
+    width:358px;
+    height: 50px;
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+.send-sms::after{    
+    content: '';
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    background-image: url('../images/send.svg');
+    background-size: contain;
+} 
